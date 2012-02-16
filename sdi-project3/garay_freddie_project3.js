@@ -1,4 +1,4 @@
-//FREDDIE GARAY
+// FREDDIE GARAY
 // SDI ONLINE PROJECT 3
 // TERMNUMBER 0212
 
@@ -9,4 +9,6 @@ console.log ( "We had to fight and defeat the anti-benders to leave the city. Ea
 console.log ( "the city from these ruthless people."
 
 // JavaScript Starts
+
+
 
