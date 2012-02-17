@@ -19,11 +19,14 @@ var crewNames = ["Aang", "Kitara", "Soaka"," Toph" ];
 
 var timeSpent = function(startWash) {
     var appaW = appaWash [startWash],
-        timeAllSpent = timeSpentAppa[nextPerson];
+    var timeAllSpent = timeSpentAppa[nextPerson];
+    
     console.log (crewNames[0] + " wanted us to wash " + appaW + " for " + timeAllSpent +
      " minutes " + " On your marks, get set, Go! ");
+    
     for (var time= 0; time < timeAllSpent; time += 5) {
        var timeLeft = timeAllSpent - time;
+    
      console.log ("We have " + timeLeft + " minutes left. " + time + " done! ");
 
    }
@@ -38,28 +41,26 @@ for (var nextPerson = 0; nextPerson < appaWash.length; nextPerson++)
 // Objects
 
 console.log( " ");
-console.log ("Now that Appa is clean, Team Avatar has different travel locations ");
-console.log ("to go to. In these locations he will be trained by different masters " );
+console.log ("Team Avatar must travel to the different locations and defeat anti-benders in the different cities. ");
+console.log ("The team will be traveling to key cities and take over to free this important locations" );
 console.log(" ");
 
 var avatarTravelLocations = {
-    North:" Frozen Kingdom ",
-    West:" Earth Kingdom  ",
-    East:" Fire Kingdom  ",
-    South:" Air Kingdom ",
+    North:" Omagua ",
+    West:" Ketar  ",
+    East:" Tilantis  ",
+    South:" City of Aaang ",
     Travel:[
         " Northern Water Tribe ",
-        " Earth City of Omashu  ",
-        " Capital City of Fire Nation ",
-        " Southern Air Temple "
+        " Ketar Earth City of Omashu  ",
+        " Capital City of Tilantis ",
+        " Southern Air City of Aang "
     ],
-    Water:" Master Pakku ",
-    Earth:" Blind bandit, Toph ",
-    Fire:" Master Jon Jon ",
-    Air:" Monk Gyatso "
+    Water:" Master Watuu ",
+    Earth:" Master Erthia ",
+    Fire:" Master Feiria  ",
+    Air:" Monk Gya "
 };
-
-avatarTravelLocations.North = "Water Kingdom";
 
 for (var launchMe in avatarTravelLocations) {
     console.log (" Location: " + launchMe +"," + avatarTravelLocations[launchMe]);
