@@ -19,22 +19,37 @@ var bendingAttack = [
 		"Earth-Bending ", 
 		"Sword-Fighting ", 
 		"Air-Bending "
-];
+		];
 
-var timeSpentFighting = [ 8, 20, 10, 15, 25 ];
-var teamNames = ["Tetra ", " Kimara", " Teaaka"," Makuu", " Pitu"];
+var timeSpentFighting = [ 8, 
+						  20, 
+						  10, 
+						  15, 
+						  25
+						  ];
+
+var teamNames = ["Tetra ", 
+				 " Kimara", 
+				 " Teaaka",
+				 " Makuu", 
+				 " Pitu"
+				 ];
 
 //var timeFight = function(startFight) {
    	
+// var nextFighterUp = function(fight) {
 
-console.log (teamNames[0] + " will kick some anti-benders butts, by " + bendingAttack[0] + " for " + timeSpentFighting[0] + " minutes " + " AHHHHH! Fight! ");
 
-
-for (var time= 0; time < timeSpentFighting; time +=2) {
-      var timeLeft = timeSpentFightingt - time;
+for (var t2= 0; t2 < timeSpentFighting.length; t2 +=2) {
+      var timeLeft = timeSpentFighting - t2;
+ 
+      console.log (teamNames[t1] + " will kick some anti-benders butts, by " + timeSpentFighting[t2] + " minutes " + " AHHHHH! Fight! ");
       
-      console.log ("We have " + timeLeft + " minutes left. " + time + " done! ");
       
+for (var t1 = 0; t1 < teamNames.length; t1++) {
+     var nextFighter = teamNames - t1 
+     
+      console.log ("We have " + timeLeft + " minutes left. " + t1 + " done! ");
    };
 	
 	  console.log ("fight time completed! ")
@@ -42,7 +57,12 @@ for (var time= 0; time < timeSpentFighting; time +=2) {
     
 //};
 
-for (var fighter =[0]; fighter < bendingAttack.length; fighter++)
+
+
+    
+
+}
+
      
 //};
           console.log ("We cleaned up house, and the city is free from suppressing forces! ")    
