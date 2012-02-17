@@ -11,7 +11,7 @@ console.log (" ")
 
 // JavaScript Starts
 
-// Arrays
+// Arrays & For Loops
 
 var bendingAttack = [ 
 		"Water-Bending ", 
@@ -21,50 +21,47 @@ var bendingAttack = [
 		"Air-Bending "
 		];
 
-var timeSpentFighting = [ 8, 
-						  20, 
-						  10, 
-						  15, 
-						  25
+var timeSpentFighting = [ 14, 
+						  11, 
+						  6, 
+						  8, 
+						  5
 						  ];
 
-var teamNames = ["Tetra ", 
+var teamNames = [" Tetra ", 
 				 " Kimara", 
 				 " Teaaka",
 				 " Makuu", 
 				 " Pitu"
 				 ];
 
-//var timeFight = function(startFight) {
-   	
-// var nextFighterUp = function(fight) {
+var timeFight = function(startFight) {
+    var fight = bendingAttack[startFight]
+    var timeSpentInFight = timeSpentFighting[nextFighter] 	
+    var fighter = teamNames[nextFighter] 
+    console.log (fighter + " will kick some Anti-Benders butts, by " + fight + " minutes " + timeSpentInFight +
+                 " AHHHHH! Fight! ");
 
-
-for (var t2= 0; t2 < timeSpentFighting.length; t2 +=2) {
-      var timeLeft = timeSpentFighting - t2;
- 
-      console.log (teamNames[t1] + " will kick some anti-benders butts, by " + timeSpentFighting[t2] + " minutes " + " AHHHHH! Fight! ");
-      
-      
-for (var t1 = 0; t1 < teamNames.length; t1++) {
-     var nextFighter = teamNames - t1 
-     
-      console.log ("We have " + timeLeft + " minutes left. " + t1 + " done! ");
-   };
+	for (var t1= 0; t1 < timeSpentInFight; t1++) {
+         
+         console.log (fighter + " has been fighting for. " + t1 + " minutes! ");
+         
+         for (var t= 0; t < teamNames; t++) {}
+         }
+         console.log ("Anti-Bender defeated!! ");
+         };
+  
+	for (var nextFighter = 0; nextFighter < teamNames.length; nextFighter++) 
+		{ timeFight(nextFighter);
+		};
 	
-	  console.log ("fight time completed! ")
+	console.log ("We cleaned up house, and the city is free from suppressing forces! ")  
+     
 // exit loop
     
-//};
 
 
 
-    
-
-}
-
-     
-//};
-          console.log ("We cleaned up house, and the city is free from suppressing forces! ")    
+            
  
 
